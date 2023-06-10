@@ -59,5 +59,4 @@ script.onload = () => {
   }).catch((message) => {
     alert(message);
   });
-};
 document.body.appendChild(script);
