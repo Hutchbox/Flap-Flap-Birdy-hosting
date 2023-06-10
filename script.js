@@ -1,8 +1,9 @@
-var container = document.querySelector("#unity-container");
-var canvas = document.querySelector("#unity-canvas");
-var loadingBar = document.querySelector("#unity-loading-bar");
-var progressBarFull = document.querySelector("#unity-progress-bar-full");
-var warningBanner = document.querySelector("#unity-warning");
+document.addEventListener('DOMContentLoaded', (event) => {
+    var container = document.querySelector("#unity-container");
+    var canvas = document.querySelector("#unity-canvas");
+    var loadingBar = document.querySelector("#unity-loading-bar");
+    var progressBarFull = document.querySelector("#unity-progress-bar-full");
+    var warningBanner = document.querySelector("#unity-warning");
 
 function unityShowBanner(msg, type) {
   function updateBannerVisibility() {
@@ -61,3 +62,4 @@ script.onload = () => {
   });
 };
 document.body.appendChild(script);
+});
