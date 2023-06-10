@@ -62,4 +62,3 @@ script.onload = () => {
   });
 };
 document.body.appendChild(script);
-});
